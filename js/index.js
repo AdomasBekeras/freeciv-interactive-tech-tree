@@ -598,10 +598,11 @@ var things = {
         img: 'http://vignette3.wikia.nocookie.net/freeciv/images/7/76/U.partisan.png/revision/latest?cb=20061222004829&format=webp'
       },
       barracks2:{
-        name:'Baracks2',
+        name:'Barracks2',
         type:'building',
         cost: 30,
         upkeep: 1,
+        text:"With a Barracks, each new land unit built in a city will automatically have Veteran status, which means that its attack and defence strengths are increased by 50%. Also, damaged land units which stay in town for one full turn without moving are completely restored. The discovery of Mobile Warfare will make Barracks II obsolete.",
         img: 'http://vignette4.wikia.nocookie.net/freeciv/images/7/7e/B.barracks_ii.png/revision/latest?cb=20141017032146&format=webp'
       },
       coastal_defense:{
@@ -610,7 +611,6 @@ var things = {
         cost: 60,
         upkeep:1,
         text:"Increases the defence strength of units within a city by a factor of 2 when defending against bombardments from enemy ships.",
-        text:"With a Barracks, each new land unit built in a city will automatically have Veteran status, which means that its attack and defence strengths are increased by 50%. Also, damaged land units which stay in town for one full turn without moving are completely restored. The discovery of Mobile Warfare will make Barracks II obsolete.",
         img: 'http://vignette4.wikia.nocookie.net/freeciv/images/0/02/B.coastal_defense.png/revision/latest?cb=20141017024757&format=webp'
       },
       barracks:{
