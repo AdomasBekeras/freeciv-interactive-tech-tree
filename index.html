@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Interactive Freeciv Tech Tree
+</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div id='tree'>
+  <svg width="7000" height="550" 
+    xmlns="http://www.w3.org/2000/svg" id='svg'>
+<filter id="f1" filterUnits="userSpaceOnUse">
+<feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+      <feColorMatrix in="SourceGraphic"
+        type="saturate"
+        values="0.1" />
+</filter>
+
+</svg>
+      <div id='footer'>Feedback, bugs questions? <a href='mailto:adomas.bekeras@gmail.com'>Contact me</a></div>
+</div>
+</body>
+</html>
